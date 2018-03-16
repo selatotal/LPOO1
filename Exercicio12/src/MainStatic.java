@@ -5,7 +5,13 @@ public class MainStatic {
 
 		System.out.println(Aluno.getAlunosMatriculados());
 
-				
+		
+		Aluno al = new Aluno();
+		System.out.println(Aluno.getAlunosMatriculados());
+
+		Aluno al2 = new Aluno();
+		System.out.println(Aluno.getAlunosMatriculados());
+		
 	}
 
 }
