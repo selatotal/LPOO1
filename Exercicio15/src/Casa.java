@@ -47,6 +47,9 @@ public class Casa {
 	}
 
 	public void setPorta1(Porta porta1) {
+		if (porta1 != null && (this.porta2 == porta1 || this.porta3 == porta1)){
+			return;
+		}
 		this.porta1 = porta1;
 	}
 
@@ -55,6 +58,9 @@ public class Casa {
 	}
 
 	public void setPorta2(Porta porta2) {
+		if (porta2 != null && (this.porta1 == porta2 || this.porta3 == porta2)){
+			return;
+		}
 		this.porta2 = porta2;
 	}
 
@@ -63,6 +69,9 @@ public class Casa {
 	}
 
 	public void setPorta3(Porta porta3) {
+		if (porta3 != null && (this.porta2 == porta3 || this.porta2 == porta3)){
+			return;
+		}
 		this.porta3 = porta3;
 	}
 
