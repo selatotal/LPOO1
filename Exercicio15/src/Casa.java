@@ -69,7 +69,7 @@ public class Casa {
 	}
 
 	public void setPorta3(Porta porta3) {
-		if (porta3 != null && (this.porta2 == porta3 || this.porta2 == porta3)){
+		if (porta3 != null && (this.porta2 == porta3 || this.porta1 == porta3)){
 			return;
 		}
 		this.porta3 = porta3;
